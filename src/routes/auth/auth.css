@@ -1,0 +1,60 @@
+.authentication {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  background: white;
+}
+
+.authentication h1 {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.authentication .switch-buttons {
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.authentication .switch-buttons div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.authentication .switch-buttons .selected {
+  background-color: red;
+}
+
+.authentication .switch-buttons .unselected {
+  background-color: rgb(149, 2, 2);
+}
+
+.authentication .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}

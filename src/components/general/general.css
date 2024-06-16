@@ -1,0 +1,111 @@
+/* Input */
+
+.input input {
+    border: none;
+    border-bottom: 1px red solid;
+    outline: none;
+    width: 200px;
+    background-color: #2c2c2c;
+}
+
+.input .dark {
+    color: white;
+    background-color: #2c2c2c;
+}
+
+.input .light {
+    color: black;
+    background-color: white;
+}
+
+.input .label {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.input .label .icon {
+    font-size: 0.8rem;
+}
+
+.input .label span {
+    font-size: 0.9rem;
+}
+
+/* Button */
+
+button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(254, 119, 119);
+}
+
+/* Select Input */
+
+.select-input {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.select-input label {
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+.select-input select {
+    border: none;
+    border-bottom: 1px red solid;
+    outline: none;
+}
+
+.select-input .dark {
+    color: white;
+    background-color: #2c2c2c;
+}
+
+.select-input .light {
+    color: black;
+    background-color: white;
+}
+
+/* Search Bar */
+.search-bar {
+    position: relative;
+}
+
+.search-bar-input {
+    border-radius: 20px;
+    padding: 5px 5px 5px 27px;
+    width: 300px;
+    background-color: #2c2c2c;
+    color: white;
+    outline: none;
+    border: none;
+    height: 25px;
+    font-size: 0.9rem;
+}
+
+.search-bar-icon {
+    position: absolute;
+    top: 4px;
+    left: 5px;
+    color: rgb(200, 200, 200);
+}
+
+
+.search-bar-input:hover + .search-bar-icon {
+    color: white;
+}
+
+.search-bar-input:hover::placeholder {
+    color: white;
+}
